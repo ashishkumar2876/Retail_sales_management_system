@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react';
+import Dashboard from './pages/Dashboard';
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center text-red-800">
-      Hello Tailwind!
-    </h1>
-  )
+    <div className="font-sans text-gray-900">
+      <Dashboard />
+    </div>
+  );
 }
+
+export default App;
