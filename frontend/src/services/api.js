@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = `${import.meta.env.baseURL}/api/transactions`;
+const API_BASE_URL = `${import.meta.env.baseURL || 'http://localhost:3000'}/api/transactions`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
