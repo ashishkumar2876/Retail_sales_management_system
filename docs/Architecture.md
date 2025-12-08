@@ -75,11 +75,10 @@ root/
 │   │   ├── utils/            # Formatting helpers (currency, date)
 │   │   ├── hooks/            # Custom hooks (useDebounce, useSalesQuery)
 │   │   ├── styles/           # CSS modules or Global styles
-│   │   └── main.jsx          # Application Entry
+│   │   └── App.jsx          # Application Entry
 │   ├── public/
 │   ├── package.json
 │   └── README.md
 ├── docs/
 │   └── architecture.md       # System design documentation
 ├── README.md                 # Project overview and setup
-└── package.json              # Root configuration
