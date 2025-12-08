@@ -6,10 +6,11 @@ const transactionRoutes = require('./routes/transactionRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const frontend_url=process.env.frontend_url;
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: frontend_url || 'http://localhost:5173', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true 
 }));
