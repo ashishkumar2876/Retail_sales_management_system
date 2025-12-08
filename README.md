@@ -46,7 +46,7 @@ Pagination is implemented at the database level using `skip` and `limit` logic t
     * Place the file inside `backend/src/utils/`.
     * Run the seed script to populate your database:
     ```bash
-    node src/utils/seed.js
+    node backend/seed.js
     ```
 5.  Start the server:
     ```bash
